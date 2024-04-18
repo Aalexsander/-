@@ -64,6 +64,11 @@ p{
   margin-top: 35px;
 }
 
+a > svg{
+  color: #F9F4FB;
+  transition: all 100ms;
+}
+
 .main{
   background-image: var(--bg-linear);
   background-size: 100%;
@@ -233,6 +238,16 @@ footer{
   fill: var(--fc-secondary);
 } */
 
+@media (max-width: 400px) {
+  .container {
+    width: 310px;
+  }
+
+  .container--text--area{
+    padding-right: 20px;
+  }
+}
+
 @media (min-width: 1000px) {
 
   .wrapper{
@@ -324,7 +339,6 @@ footer{
 
   .container:hover .planets > img{
     transform: rotate(45deg);
-    color: red;
   }
 
   .container{
