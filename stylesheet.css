@@ -30,7 +30,10 @@ html{
 body{
   background-color: #F9F4FB;
   font-family: 'Mulish', sans-serif;
-  
+}
+
+body::-webkit-scrollbar{
+  display: none;
 }
 
 h3{
